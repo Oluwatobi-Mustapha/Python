@@ -5,3 +5,4 @@ My daily Cloud python programming
 Learned: str, int, bool, float
 Applied: AWS cost calculation
 
+File: `data_types.py`
