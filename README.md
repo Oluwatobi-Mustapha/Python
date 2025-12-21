@@ -1,5 +1,5 @@
 # Python-programming-for-Cloud
-Daily IAM Security programming 
+Daily IAM Security programming in python
 
 # Day 1: Variables and Data Types
 
