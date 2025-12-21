@@ -39,6 +39,9 @@ pop() with no argument removes the last item, while pop(0) removes the first ite
 
 File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_Cleanup.py)
 
+NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 of my code
+
+
 # Day 5: Lists continuation
 [`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py)
 
