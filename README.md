@@ -6,12 +6,16 @@ My daily Cloud detection programming
 Learned: [str, int, bool, float]
 
 Applied: AWS cost calculation
-file: `data_types`
+
+File: `data_types`
+
 # Day 2: Python Operators
 
 Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
 Applied: Shopping cart logic
+
+File: `Operators_py`
 
 # Day 3: Conditional statement
 
@@ -31,4 +35,6 @@ In Python, an empty list [] evaluates to False, not 0. An error occurs only when
 
 pop() with no argument removes the last item, while pop(0) removes the first item.
 
-You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 0f my code
+File: `IAM_Cleanup.py` `Access_key_Rotator`
+
+NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 0f my code
