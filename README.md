@@ -7,7 +7,7 @@ Learned: [str, int, bool, float]
 
 Applied: AWS cost calculation
 
-File: `data_types.py`
+File: https://github.com/Oluwatobi-Mustapha/Python/blob/main/data_types.py
 
 # Day 2: Python Operators
 
@@ -15,7 +15,7 @@ Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
 Applied: Shopping cart logic
 
-File: `Operators.py`
+File: [`Operators.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/operators.py)
 
 # Day 3: Conditional statement
 
@@ -23,7 +23,7 @@ Learned: [ If, elif, else conditional logic, dictionary, String .join() to combi
 
 Apllied: AWS service mapper
 
-File: `Condtional_statements.py`
+File: [`Condtional_statements.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/conditional_statements.py)
 
 # Day 4: lists.
 
@@ -37,6 +37,8 @@ In Python, an empty list [] evaluates to False, not 0. An error occurs only when
 
 pop() with no argument removes the last item, while pop(0) removes the first item.
 
-File: `IAM_Cleanup.py` `Access_key_Rotator` https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_Cleanup.py
+File: https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_Cleanup.py
 
+      https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py
+      
 NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 0f my code
