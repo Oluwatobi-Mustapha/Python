@@ -47,4 +47,3 @@ NOTE: You use .index() to convert a Name into a Number, so you can use that numb
 
       
       
-NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 of my code
