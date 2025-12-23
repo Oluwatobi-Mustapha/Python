@@ -46,5 +46,11 @@ NOTE: You use .index() to convert a Name into a Number, so you can use that numb
 [`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py)
 [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Permissions_Audit.py)
 
+# Day 6: Dictionaries
+
+Learned how to extracts, modify and assign a new file to a dictionary
+
+[`Dict`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Dictionary.py)
+
       
       
