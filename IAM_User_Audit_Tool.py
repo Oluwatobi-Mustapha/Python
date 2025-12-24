@@ -7,7 +7,6 @@ def main():
         'service_backup': {'role': 'service', 'mfa_enabled': False, 'last_login_days': 0},
         'dev_jane': {'role': 'developer', 'mfa_enabled': True, 'last_login_days': 10},
         'admin_root': {'role': 'admin', 'mfa_enabled': False, 'last_login_days': 300}
-
     }
     count = 0
     for username, details in iam_users.items():
