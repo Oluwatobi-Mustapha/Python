@@ -52,8 +52,11 @@ Application: Audit tool
 
 File:[`IAM User Audit Tool`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Audit_Tool.py) 
      [`Loops.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Loops.py)
+     
 # Day 8: Functions
 Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Functions.py)
 
-      
-      
+# Day 9: Exception Handling
+Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py)
+Architecture Diagram:<img width="1540" height="1234" alt="Exception handling" src="https://github.com/user-attachments/assets/5b979ad0-a7ec-4b5d-8ea6-1d01f8d9ba0a" />
+
