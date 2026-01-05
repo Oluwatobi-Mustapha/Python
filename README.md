@@ -59,3 +59,7 @@ Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main
 Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/bulk_policy_scanner.py)
 
 Architecture Diagram:<img width="770" height="617" alt="Exception handling excalidraw" src="https://github.com/user-attachments/assets/ce169b30-0ab4-44ad-8f06-595a25d448c0" />
+
+# Day 10: Boto3
+
+Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_bucket_creation.py)
