@@ -64,6 +64,6 @@ Architecture Diagram:<img width="770" height="617" alt="Exception handling excal
 
 Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_bucket_creation.py)
 
-# Day 11: Boto3 continuation + CRUD(Create, Read, Update and Delete)
+# Day 11: Boto3 continuation + CRUD
+Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_crud.py)
 
-Application: [`S3-crud`]
