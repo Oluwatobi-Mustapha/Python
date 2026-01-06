@@ -1,7 +1,7 @@
-# Import the boto3 library
+# Import the boto3 library and os module for file handling
 import boto3
 from botocore.exceptions import ClientError
-import os  # Needed for file existence checks
+import os 
 
 # Instantiate a boto3 resource for S3
 s3 = boto3.resource('s3')
