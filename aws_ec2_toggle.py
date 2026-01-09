@@ -1,3 +1,4 @@
+"""This script manages Amazon EC2 instances using the Boto3 Python SDK"""
 import boto3
 from botocore.exceptions import ClientError
 
