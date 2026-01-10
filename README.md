@@ -67,3 +67,5 @@ Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python
 # Day 11: Boto3 continuation + CRUD
 Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_crud.py)
 
+# Day 12: Boto3 for EC2 management
+Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/aws_ec2_toggle.py)
