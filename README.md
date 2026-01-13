@@ -1,7 +1,7 @@
 # Python-programming-for-Cloud
 Daily Cloud programming in python
 
-# Day 1: Variables and Data Types
+# Variables and Data Types
 
 Learned: [str, int, bool, float]
 
@@ -9,7 +9,7 @@ Applied: AWS cost calculation
 
 File: [`data types`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/data_types.py)
 
-# Day 2: Python Operators
+# Python Operators
 
 Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
@@ -17,7 +17,7 @@ Applied: Shopping cart logic
 
 File: [`Operators`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/operators.py)
 
-# Day 3: Conditional statement
+# Conditional statement
 
 Learned: [ If, elif, else conditional logic, dictionary, String .join() to combine items with separator, Input validation (.lower(), .strip()) ]
 
@@ -25,7 +25,7 @@ Application: AWS service mapper
 
 File: [`Condtional statements`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/conditional_statements.py)
 
-# Day 4: lists.
+# lists.
 
 Learned Python lists by building a basic IAM cleanup script. I now understand lists (mutable) vs tuples (immutable), conditional use of if and in, indexing, and replacing values. I also learned list slicing and its usefulness during audits.
 
@@ -33,17 +33,17 @@ An empty list [] evaluates to False; errors only occur when accessing invalid in
 
 File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_Cleanup.py)
 
-# Day 5: Lists continuation
+# Lists continuation
 
 File:[`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py) [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Permissions_Audit.py)
 
-# Day 6: Dictionaries
+# Dictionaries
 
 Learned how to extracts, modify and assign a new file to a dictionary
 
 File: [`Dict`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Dictionary.py)
 
-# Day 7: Loops
+# Loops
 
 Learned: for, while, else, .get(), in, else, if, break(stop), continue(skip).
 
@@ -51,21 +51,21 @@ Application: Audit tool
 
 File:[`IAM User Audit Tool`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Audit_Tool.py) [`Loops.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Loops.py)
      
-# Day 8: Functions
+# Functions
 Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Functions.py)
 
-# Day 9: Exception Handling
+# Exception Handling
 
 Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/bulk_policy_scanner.py)
 
 Architecture Diagram:<img width="770" height="617" alt="Exception handling excalidraw" src="https://github.com/user-attachments/assets/ce169b30-0ab4-44ad-8f06-595a25d448c0" />
 
-# Day 10: Boto3
+# Boto3
 
 Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_bucket_creation.py)
 
-# Day 11: Boto3 continuation + CRUD
+# Boto3 continuation + CRUD
 Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_crud.py)
 
-# Day 12: Boto3 for EC2 management
+# Boto3 for EC2 management
 Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/aws_ec2_toggle.py)
