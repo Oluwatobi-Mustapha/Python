@@ -70,5 +70,5 @@ Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/
 # Boto3 for EC2 management
 Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/aws_ec2_toggle.py)
 
-# Learned: Boto3 Waiters (eventual consistency), Error Handling, Idempotency, Variable Management.
+## Learned: Boto3 Waiters (eventual consistency, Idempotency, Variable Management.
 Application: [`Automated VPC & Network Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_builder_logic.py)
