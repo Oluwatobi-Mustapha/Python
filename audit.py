@@ -12,4 +12,3 @@ with open("audit_log.txt", "a") as f:
     f.write(log_entry)
 
 print(f"Successfully logged: {user_arn}")
-

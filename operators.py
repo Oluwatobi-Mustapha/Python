@@ -7,15 +7,15 @@ Demonstrates: Assignment, Arithmetic, Comparison, Logical, Membership operators
 # Configuration(constants)
 DISCOUNT_RATE = 0.20  # 20% discount
 ELIGIBLE_ITEMS = ["orange", "banana", "watermelon"]
-FREE_SHIPPING_MIN_QTY = 3 # Minimum quantity for free shipping
+FREE_SHIPPING_MIN_QTY = 3  # Minimum quantity for free shipping
+
 
 def main():
-
-    """ Assignment operators """
+    """Assignment operators"""
     # set variables
-    item_name = 'banana'
+    item_name = "banana"
     qty = 6
-    item_price = 5 # USD
+    item_price = 5  # USD
 
     """ Arithmetic operators """
     # calculate subtotal
@@ -35,26 +35,11 @@ def main():
 
     """ logical operators """
     # check for free-shipping eligibility
-    eligibility_for_free_shipping = (qty >= FREE_SHIPPING_MIN_QTY  and item_name == 'banana')
+    eligibility_for_free_shipping = (
+        qty >= FREE_SHIPPING_MIN_QTY and item_name == "banana"
+    )
     print(f"Is it eligible for free shipping?: {eligibility_for_free_shipping}")
 
-if __name__ == '__main__':
-     main()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()

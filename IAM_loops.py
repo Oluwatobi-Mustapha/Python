@@ -45,9 +45,6 @@ def main():
     # else:
     #     print("No root user found") # should be attached to for, not if.
 
-
-
-
     # # Skipping items
     # users = ['root', 'service_account', 'john', 'mike']
     # for user in users:
@@ -57,21 +54,20 @@ def main():
     #
     #
     iam_users = {
-        'john': {'role': 'admin', 'mfa_enabled': True},
-        'sarah': {'role': 'developer', 'mfa_enabled': False},
-        'mike': {'role': 'admin', 'mfa_enabled': False}
+        "john": {"role": "admin", "mfa_enabled": True},
+        "sarah": {"role": "developer", "mfa_enabled": False},
+        "mike": {"role": "admin", "mfa_enabled": False},
     }
     for user, details in iam_users.items():
-        role = details.get('role', 'unknown')
-        mfa = details.get('mfa_enabled', False)
+        role = details.get("role", "unknown")
+        mfa = details.get("mfa_enabled", False)
 
-        if role == 'admin' and not mfa:
+        if role == "admin" and not mfa:
             print(f"ALERT: {user} is an admin without MFA")
     # for user, details in iam_users.items():
     #     if details['role']== 'admin' and not details['mfa_enabled']:
     #         print(f"ALERT: {user} is an admin without MFA")
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

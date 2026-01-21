@@ -1,7 +1,9 @@
 """Use a list of aws services and demonstrate various loop operation"""
+
+
 def main():
     # List of aws services
-    aws_services = ['EC2', 'S3', 'RDS', 'VPC', 'IAM']
+    aws_services = ["EC2", "S3", "RDS", "VPC", "IAM"]
     print(f"AWS services are: {aws_services}")
 
     # Use a for loop to iterate through the list
@@ -11,7 +13,7 @@ def main():
 
     # Use a while loop to iterate through the list in reverse order
     print(f"\nUsing a while loop to iterate through the list in a reverse order: ")
-    index = len(aws_services) -1
+    index = len(aws_services) - 1
     while index >= 0:
         print(aws_services[index])
         index -= 1
@@ -24,5 +26,6 @@ def main():
     for index, service in enumerate(aws_services):
         print(f"\nService # {index + 1}: {service}")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
