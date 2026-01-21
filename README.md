@@ -73,10 +73,7 @@ Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Musta
 # Boto3 for VPC mgt
 * Learned Boto3 Waiters (eventual consistency), Error Handling, Idempotency, Variable Management.
   
-Application: 
-[`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_builder_logic.py)
-
-[`Automated VPC Teardown`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_destroyer_logic.py)
+Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_builder_logic.py) [`Automated VPC Teardown`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_destroyer_logic.py)
            
 Screeenshot:![E2061654-E091-46AE-BE09-1C1874E92B77_4_5005_c](https://github.com/user-attachments/assets/2a82e8bb-1c4d-4627-8cea-0b6b8625771b)
 
