@@ -7,7 +7,7 @@ Learned: [str, int, bool, float]
 
 Applied: AWS cost calculation
 
-File: [`data types`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/data_types.py)
+File: [`data types`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/data_types.py)
 
 # Python Operators
 
@@ -15,7 +15,7 @@ Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
 Applied: Shopping cart logic
 
-File: [`Operators`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/operators.py)
+File: [`Operators`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/operators.py)
 
 # Conditional statement
 
@@ -23,7 +23,7 @@ Learned: [ If, elif, else conditional logic, dictionary, String .join() to combi
 
 Application: AWS service mapper
 
-File: [`Condtional statements`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/conditional_statements.py)
+File: [`Condtional statements`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/conditional_statements.py)
 
 # lists.
 
@@ -31,11 +31,11 @@ Learned Python lists by building a basic IAM cleanup script. I now understand li
 
 An empty list [] evaluates to False; errors only occur when accessing invalid indexes. pop() removes the last item, while pop(0) removes the first. I used .index() to convert a name to an index so I could modify the list (used in line 20 of the code).
 
-File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_Cleanup.py)
+File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/IAM_Cleanup.py)
 
 # Lists continuation
 
-File:[`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py) [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Permissions_Audit.py)
+File:[`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/Access_Key_Rotator.py) [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/IAM_User_Permissions_Audit.py)
 
 # Dictionaries
 
@@ -56,24 +56,24 @@ Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main
 
 # Exception Handling
 
-Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/bulk_policy_scanner.py)
+Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/bulk_policy_scanner.py)
 
 Architecture Diagram:<img width="770" height="617" alt="Exception handling excalidraw" src="https://github.com/user-attachments/assets/ce169b30-0ab4-44ad-8f06-595a25d448c0" />
 
 # Boto3
 
-Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_bucket_creation.py)
+Application: [`S3-Bucket-creation`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/s3_bucket_creation.py)
 
 # Boto3 continuation + CRUD
-Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/s3_crud.py)
+Application: [`S3-crud`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/s3_crud.py)
 
 # Boto3 for EC2 mgt
-Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/aws_ec2_toggle.py)
+Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/aws_ec2_toggle.py)
 
 # Boto3 for VPC mgt
 * Learned Boto3 Waiters (eventual consistency), Error Handling, Idempotency, Variable Management.
   
-Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_builder_logic.py) [`Automated VPC Teardown`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/vpc_destroyer_logic.py)
+Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/vpc_builder_logic.py) [`Automated VPC Teardown`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/vpc_destroyer_logic.py)
            
 Screeenshot:![E2061654-E091-46AE-BE09-1C1874E92B77_4_5005_c](https://github.com/user-attachments/assets/2a82e8bb-1c4d-4627-8cea-0b6b8625771b)
 
