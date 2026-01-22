@@ -24,9 +24,9 @@ print(vpc_id)
 
 # 2. Create the subnet with vpc id
 
-subnet_1_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_1, VpcId=vpc_id, AvailabiltyZone='us-east-1a')
-subnet_2_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_2, VpcId=vpc_id, AvailabiltyZone='us-east-1b')
-subnet_3_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_3, VpcId=vpc_id, AvailabiltyZone='us-east-1c')
+subnet_1_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_1, VpcId=vpc_id, AvailabilityZone='us-east-1a')
+subnet_2_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_2, VpcId=vpc_id, AvailabilityZone='us-east-1b')
+subnet_3_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_3, VpcId=vpc_id, AvailabilityZone='us-east-1c')
 
 print(f"subnet_1_ID = '{subnet_1_response['Subnet']['SubnetId']}', subnet_2_ID = '{subnet_2_response['Subnet']['SubnetId']}', subnet__ID = '{subnet_3_response['Subnet']['SubnetId']}' ")
 
@@ -50,8 +50,37 @@ print(rt_id)
 r_response = client.create_route(RouteTableId=rt_id, DestinationCidrBlock='0.0.0.0/0', GatewayId=igw_id)
 print(f"Created default route (0.0.0.0/0) to IGW {igw_id} in route table {rt_id}")
 
-# 7. Associate the subnet to the route
-art_response = client.associate_route_table(RouteTableId=rt_id, SubnetId=subnet_id)
+# 7. Associate subnets with the route table and mark them as public
+
+# - Associating the route table ensures traffic to 0.0.0.0/0
+#   is sent through the Internet Gateway.
+# - Enabling MapPublicIpOnLaunch is required so EC2 instances
+#   launched in these subnets automatically receive public IPs.
+# - Without this, instances will be unreachable even though
+#   the IGW and routes exist whuch is a common AWS networking pitfall
+public_subnet_responses = [
+    subnet_1_response,
+    subnet_2_response,
+    subnet_3_response
+]
+
+for subnet_response in public_subnet_responses:
+    subnet_id = subnet_response['Subnet']['SubnetId']
+
+    # Associate subnet with the route table (makes it use the IGW route)
+    client.associate_route_table(
+        RouteTableId=rt_id,
+        SubnetId=subnet_id
+    )
+
+    # Ensure instances launched in this subnet receive public IPs
+    client.modify_subnet_attribute(
+        SubnetId=subnet_id,
+        MapPublicIpOnLaunch={'Value': True} # NOTE: Public subnet = IGW route + public IP mapping (both required)
+    )
+
+    print(f"Subnet {subnet_id} associated with route table {rt_id} and marked as public") 
+    
 
 # 8. Create Security Group
 try:
