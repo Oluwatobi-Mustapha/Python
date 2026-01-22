@@ -24,9 +24,22 @@ print(vpc_id)
 
 # 2. Create the subnet with vpc id
 
-subnet_1_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_1, VpcId=vpc_id, AvailabilityZone='us-east-1a')
-subnet_2_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_2, VpcId=vpc_id, AvailabilityZone='us-east-1b')
-subnet_3_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_3, VpcId=vpc_id, AvailabilityZone='us-east-1c')
+# Get the first 3 available AZs dynamically
+
+azs_response = client.describe_availability_zones(
+    Filters=[{'Name': 'state', 'Values': ['available']}]
+)
+
+# Extract the ZoneName
+availability_zones = [
+    az['ZoneName'] 
+    for az in azs_response['AvailabilityZones'][:3]
+]
+print("Using Availability Zones:", availability_zones)
+
+subnet_1_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_1, VpcId=vpc_id, AvailabilityZone=availability_zones[0])
+subnet_2_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_2, VpcId=vpc_id, AvailabilityZone=availability_zones[1])
+subnet_3_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_3, VpcId=vpc_id, AvailabilityZone=availability_zones[2])
 
 print(f"subnet_1_ID = '{subnet_1_response['Subnet']['SubnetId']}', subnet_2_ID = '{subnet_2_response['Subnet']['SubnetId']}', subnet__ID = '{subnet_3_response['Subnet']['SubnetId']}' ")
 
