@@ -33,6 +33,7 @@ subnet_waiter.wait(SubnetIds=[subnet_id])
 print(subnet_id)
 
 # 3. Create the internet gateway
+ig_name = 'tobi-internet'
 igw_response = client.create_internet_gateway()
 
 igw_id = igw_response['InternetGateway']['InternetGatewayId']
