@@ -8,6 +8,8 @@ SECURITY_GROUP_NAME = 'Boto3-sg'
 
 # 1. Create the vpc 
 client = boto3.client('ec2')
+vpc_name = 'tobi-vpc'
+
 vpc_waiter = client.get_waiter('vpc_available')
 
 vpc_response = client.create_vpc(CidrBlock=VPC_CIDR_BLOCK )
