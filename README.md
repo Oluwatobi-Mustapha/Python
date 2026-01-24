@@ -75,8 +75,6 @@ Application: [`EC2-Creation-and-termination`](https://github.com/Oluwatobi-Musta
   
 Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/vpc_builder_logic.py) [`Automated VPC Teardown`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/vpc_destroyer_logic.py)
            
-### Screeenshot:
-
 **Old Script:**
 ![E2061654-E091-46AE-BE09-1C1874E92B77_4_5005_c](https://github.com/user-attachments/assets/2a82e8bb-1c4d-4627-8cea-0b6b8625771b)
 
@@ -86,6 +84,8 @@ Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Pytho
 
 # CIS AWS BENCHMARK
 Application:[`audit_keys`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/audit_keys.py)
+
+<img width="2528" height="443" alt="image" src="https://github.com/user-attachments/assets/621f0299-82b7-4393-bc83-d39d18f8f3da" />
 
 
 
