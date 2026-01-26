@@ -90,7 +90,8 @@ Application:[`audit_keys`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto
 
  **Deactivation:**
 <img width="1344" height="273" alt="51DB0E9C-72C3-4EF5-9D08-DC08B475D35A" src="https://github.com/user-attachments/assets/e910c336-6ba2-4f16-8159-f057141d87fe" />
-
+ **AWS Console:**
+<img width="2687" height="1497" alt="image" src="https://github.com/user-attachments/assets/e5552f6f-5d9f-41b6-acc4-9858f93325b5" />
 
 
 
