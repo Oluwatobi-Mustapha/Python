@@ -86,15 +86,13 @@ Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Pytho
 Application:[`audit_keys`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/audit_keys.py)
 
 **Discovery of duplicate access keys:**
-![8EEAE073-E73D-4FA0-ADCF-BAB521A79AEA_1_201_a](https://github.com/user-attachments/assets/78917a78-8176-482c-8e30-9f137bc54edf)
-
+ ![8EEAE073-E73D-4FA0-ADCF-BAB521A79AEA_1_201_a](https://github.com/user-attachments/assets/78917a78-8176-482c-8e30-9f137bc54edf)
 
  **Deactivation:**
- <img width="2688" height="1680" alt="image" src="https://github.com/user-attachments/assets/2dbdc0e5-18bb-405a-9d8a-fcbe45179252" />
-
+ <img width="1759" height="535" alt="image" src="https://github.com/user-attachments/assets/14d69445-5bd3-4cfd-bcbf-3afc50f602a2" />
 
  **AWS Console:**
-<img width="2687" height="1497" alt="image" src="https://github.com/user-attachments/assets/e5552f6f-5d9f-41b6-acc4-9858f93325b5" />
+ <img width="2687" height="1497" alt="image" src="https://github.com/user-attachments/assets/e5552f6f-5d9f-41b6-acc4-9858f93325b5" />
  ### Security Notes: All keys displayed are deleted after project, so don't bother hacking me.
 
 
